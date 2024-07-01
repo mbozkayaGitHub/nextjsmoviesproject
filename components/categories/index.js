@@ -12,7 +12,7 @@ function Categories({ categories }) {
           className={styles.category}
           href={`/${category.id}`}
         >
-          <div className={styles.name}>{category.name}</div>
+          <div className={styles.name}>{category.name} </div>
         </Link>
       ))}
     </div>
